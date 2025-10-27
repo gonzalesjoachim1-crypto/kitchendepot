@@ -1,0 +1,134 @@
+:root {
+  --color-gray-light-1:#F5F5F5;
+  --color-gray-dark-1:#DDD;
+  --color-gray-dark-2:#AAA;
+  --color-gray-dark-3:#999;
+  --color-gray-dark-4:#555;
+  --color-gray-dark-5:#333;
+  --color-green-1:#008000;
+  --color-green-2:#6B8E23;
+  --color-yellow:#FFD700;
+  --color-red-1:#FF4500;
+  --color-red-2:#B22222;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-gray-light-1);
+  color: var(--color-gray-dark-5);
+}
+
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-gray-dark-5);
+}
+
+.breadcrumb {
+  background: var(--color-green-1);
+  color: white;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+}
+
+.recipe-info {
+  flex: 1;
+}
+
+.recipe-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.recipe-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: var(--color-gray-light-1);
+}
+
+.ingredients ul, .prep-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.instructions ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.recipe-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
+}
+
+.recipe-footer ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.recommendations {
+  text-align: center;
+  padding: 40px 50px;
+  background: var(--color-gray-light-1);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer {
+  background: var(--color-gray-dark-5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.footer ul {
+  list-style: disc;
+  padding-left: 20px;
+}
